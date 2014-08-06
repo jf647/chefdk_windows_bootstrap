@@ -1,0 +1,6 @@
+include_recipe 'chefdk_windows_bootstrap::virtualbox'
+include_recipe 'chefdk_windows_bootstrap::vagrant'
+include_recipe 'chefdk_windows_bootstrap::msysgit'
+include_recipe 'chefdk_windows_bootstrap::git_extensions'
+include_recipe 'chefdk_windows_bootstrap::kdiff3'
+include_recipe 'chefdk_windows_bootstrap::upgrade_yajl'

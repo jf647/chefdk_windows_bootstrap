@@ -1,0 +1,10 @@
+DEPENDENCIES
+  ms_dotnet45
+  windows
+
+GRAPH
+  chef_handler (1.1.6)
+  ms_dotnet45 (1.1.2)
+    windows (>= 0.0.0)
+  windows (1.34.0)
+    chef_handler (>= 0.0.0)

@@ -1,0 +1,7 @@
+name             'chefdk_windows_bootstrap'
+maintainer       'James FitzGibbon'
+maintainer_email 'james@nadt.net'
+description      'Installs 3rd party tools for ChefDK'
+version          '0.1.0'
+depends          'windows'
+depends          'ms_dotnet45'
